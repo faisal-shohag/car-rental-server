@@ -24,12 +24,12 @@ app.post('/mail-to-admin', (req, res) => {
     const {email} = req.body
     console.log(email)
     // res.send({'success': 'ok'})
-    mailToAdmin(email, req, res)
+    mailToAdmin(email, req, res, req.body)
 })
 
 app.post('/mail-to-user', (req, res) => {
     const {email} = req.body
-    mailToUser(email, req, res)
+    mailToUser(email, req, res, req.body)
 })
 
 
