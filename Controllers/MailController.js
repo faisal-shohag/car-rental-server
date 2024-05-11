@@ -26,10 +26,6 @@ const mailToAdmin = (toSend, req, res, data) => {
                     <td style="padding: 0 16px 18px 16px;">
                         <div style="display: flex; justify-content: space-between;">
                             <div>
-                                <img style="height:80px;" src="https://i.postimg.cc/wvDz4sKT/image.png" />
-                            </div>
-    
-                            <div>
                                 <h1 style="color: #1A1C21;font-size: 18px;font-style: normal;font-weight: 600;line-height: normal;">
                                     JATRI RENTAL</h1>
                                 <p>Jatri@email.com</p>

@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 app.post('/mail-to-admin', (req, res) => {
     const {email} = req.body
-    console.log(email)
+    // console.log(email)
     // res.send({'success': 'ok'})
     mailToAdmin(email, req, res, req.body)
 })
